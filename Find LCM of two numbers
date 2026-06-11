@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int firstNum, secondNum, lcm;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &firstNum, &secondNum);
+
+    lcm = (firstNum > secondNum) ? firstNum : secondNum;
+
+    while (1)
+    {
+        if (lcm % firstNum == 0 && lcm % secondNum == 0)
+        {
+            printf("LCM = %d", lcm);
+            break;
+        }
+
+        lcm++;
+    }
+
+    return 0;
+}
