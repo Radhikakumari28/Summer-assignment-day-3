@@ -3,8 +3,7 @@
 int main()
 {
     int start, end, num, i, isPrime;
-
-    printf("Enter starting number: ");
+   printf("Enter starting number: ");
     scanf("%d", &start);
 
     printf("Enter ending number: ");
