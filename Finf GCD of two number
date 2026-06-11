@@ -3,11 +3,9 @@
 int main()
 {
     int firstNum, secondNum, lcm;
-
-    printf("Enter two numbers: ");
-    scanf("%d %d", &firstNum, &secondNum);
-
-    lcm = (firstNum > secondNum) ? firstNum : secondNum;
+     printf("Enter two numbers: ");
+      scanf("%d %d", &firstNum, &secondNum);
+        lcm = (firstNum > secondNum) ? firstNum : secondNum;
 
     while (1)
     {
